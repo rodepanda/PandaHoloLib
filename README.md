@@ -32,7 +32,7 @@ PandaHoloLib is a library which makes it easy to create interactive touchscreen 
 ```xml
 <dependencies>
   <dependency>
-    <groupId>net.rodepanda.holo</groupId>
+    <groupId>net.rodepanda</groupId>
     <artifactId>PandaHoloLib</artifactId>
     <version>1.0.0</version>
   </dependency>
