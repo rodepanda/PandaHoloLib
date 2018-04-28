@@ -1,0 +1,25 @@
+image: maven:3.3.9-jdk-8
+cache:
+  paths:
+    - .m2/repository/
+stages:
+  - build
+  - deploy
+build:
+  except:
+    - tags
+  stage: build
+  script:
+    - mvn clean compile -B
+    - mvn clean package -B
+  artifacts:
+    name: "PandaHoloLib"
+    paths:
+      - ./target/PandaHoloLib*.jar
+deploy:
+  except:
+    - tags
+  stage: deploy
+  allow_failure: true
+  script:
+    - mvn clean deploy -B --settings settings.xml

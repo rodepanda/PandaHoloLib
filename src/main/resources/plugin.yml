@@ -1,0 +1,8 @@
+name: PandaHoloLib
+author: Rodepanda
+description: Library to create interactive holograph screens.
+version: ${project.version}
+website: https://rodepanda.net/
+main: net.rodepanda.holograms.Holo
+depend: [ProtocolLib]
+softdepend: [MVdWPlaceholderAPI,PlaceholderAPI]
