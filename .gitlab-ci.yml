@@ -19,8 +19,6 @@ build:
 deploy:
   except:
     - tags
-    message:
-      - /\[norepo\]/
 
   stage: deploy
   allow_failure: true
