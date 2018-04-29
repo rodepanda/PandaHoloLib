@@ -34,7 +34,7 @@ PandaHoloLib is a library which makes it easy to create interactive touchscreen 
   <dependency>
     <groupId>net.rodepanda</groupId>
     <artifactId>PandaHoloLib</artifactId>
-    <version>1.0.0</version>
+    <version>1.0</version>
   </dependency>
 </dependencies>
 ```
@@ -75,3 +75,7 @@ screen.unloadSlide();
 ```
 
 Whenever a player logs out the screen will disable itself automatically.
+
+#### Example code
+
+For a full working example project you can take a look at [HoloExample](https://repo.rodepanda.net/spigot/HoloExample)
